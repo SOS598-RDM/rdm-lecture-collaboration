@@ -1,8 +1,8 @@
 ---
-title: "collaboration"
+title: false
 subtitle: false
 author: false
-date: "spring 2020"
+date: false
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -17,60 +17,55 @@ output:
 options(htmltools.dir.version = FALSE)
 ```
 
-
-#### an increasingly collaborative world 
+class: middle
 
 .center[
   <img src="assets/figures/wutchty_teams.jpg" width="80%"></img>
 ]
 
-.footnote[Wuchty et al. 2007 [The Increasing Dominance of Teams in Production of Knowledge](http://science.sciencemag.org/content/316/5827/1036)]
+.footnote[Wuchty et al. 2007 [*The Increasing Dominance of Teams in Production of Knowledge*](http://science.sciencemag.org/content/316/5827/1036)]
+
+???
+
+#### an increasingly collaborative world 
 
 
 ---
+class: middle, center
+
+<img src="assets/figures/dropbox.png" style="width:30%">
+<img src="assets/figures/onedrive.png" style="width:28%">
+<img src="assets/figures/googledrive.jpg" style="width:28%">
+
+???
 
 #### collaboration tools
 
-<br>
-<br>
-<br>
-
-.center[
-  <img src="assets/figures/dropbox.png" style="width:30%">
-  <img src="assets/figures/onedrive.png" style="width:28%">
-  <img src="assets/figures/googledrive.jpg" style="width:28%">
-]
-
 
 ---
+class: middle
 
-#### tools for reproducible research and collaboration
-
-![tools](assets/figures/tools.png)
-
-.footnote[<hr>we’ll git there, slowly but surely. mine çetinkaya-rundel. duke university statistical science]
-
-
----
-
-#### utility of GitHub
+on the utility of GitHub
 
 ![github](assets/figures/github_utility.png)
 
-.footnote[<hr>we’ll git there, slowly but surely. mine çetinkaya-rundel. duke university statistical science]
+.footnote[<hr>we’ll git there, slowly but surely. Mine Çetinkaya-Rundel. Duke University Statistical Science]
+
+???
+
+#### on the utility of GitHub
 
 
 ---
+class: middle, center
+
+<img src="assets/figures/GitHubCollaboration - solo.png" width="35%"></img>
+
+???
 
 #### version control with Git and GitHub
 
-.center[
-  <img src="assets/figures/GitHubCollaboration - solo.png" width="35%"></img>
-]
-
 ---
-
-#### collaboration with GitHub - shared repository
 
 a shared repository or team environment makes collaborating with GitHub very easy
 
@@ -78,9 +73,12 @@ a shared repository or team environment makes collaborating with GitHub very eas
   <img src="assets/figures/GitHubCollaboration - team.png" width="60%"></img>
 ]
 
+???
+
+#### shared repository
+
 
 ---
-#### recall Alice?
 
 <br>
 
@@ -89,18 +87,25 @@ a shared repository or team environment makes collaborating with GitHub very eas
 ]
 
 
+???
+
+#### recall the example from Alice
+
+
 ---
 
-#### collaboration with GitHub - forking
+another way
 
 .center[
   <img src="assets/figures/GitHubCollaboration - fork.png" width="75%"></img>
 ]
 
+???
+
+#### collaboration with GitHub - forking
 
 ---
 
-#### collaboration with GitHub - forking
 
 forking is invaluable but in itself does not facilitate complete synchronization
 
@@ -108,20 +113,26 @@ forking is invaluable but in itself does not facilitate complete synchronization
   <img src="assets/figures/GitHubCollaboration - push-to-fork.png" width="70%"></img>
 ]
 
+???
+
+#### collaboration with GitHub - forking
+
 
 ---
+class: middle, center
+
+<img src="assets/figures/GitHubCollaboration - pull-request.png" width="75%"></img>
+
+???
 
 #### collaboration with GitHub - pull request
 
-.center[
-  <img src="assets/figures/GitHubCollaboration - pull-request.png" width="75%"></img>
-]
-
 
 ---
+class: middle, center
+
+<img src="assets/figures/soil-organic-matter.png" width="90%">
+
+???
 
 #### real-world example: cross-site soil organic matter synthesis
-
-.center[
-  <img src="assets/figures/soil-organic-matter.png" width="90%">
-]
